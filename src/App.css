@@ -23,6 +23,9 @@ p {
 
 .header-bg {
   background-color: cadetblue;
+  position: fixed;
+  width: 100vw;
+  z-index: 100;
 }
 
 .header {
@@ -127,11 +130,12 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    position: absolute;
+    position: fixed;
     top: 4px;
-    right: -16px;
+    right: 0;
     padding: 0 16px;
     background-color: cadetblue;
+    z-index: 100;
   }
 }
 
